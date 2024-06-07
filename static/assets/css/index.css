@@ -1,0 +1,90 @@
+.prompt-zone{
+    height: calc(100vh - 10px);
+    padding: 85px 140px 170px !important;
+    overflow:auto;
+}
+.prompt-sample{
+    cursor: pointer;
+}
+.prompt-sample:hover{
+    background-color: #0460a9;
+    color: #fff;
+}
+.disclaimer{
+    margin-top:75px;
+}
+.disclaimer .d-img{
+    text-align: center;
+    font-size:28px;
+}
+.disclaimer .d-title{
+    text-align: center;
+    font-size:16px;
+    font-weight: 600;
+}
+.disclaimer .alert{
+    margin-top:10px;
+    font-size: 12px;
+    min-height:160px;
+    cursor: pointer;
+}
+
+.chat-messages{
+    display: block;
+    margin-top:75px;
+}
+.c-msg{
+    padding-left:120px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-right: 60px;
+}
+.c-msg .card{
+    
+}
+.c-msg .card-body{
+    padding:10px 15px;
+}
+.c-msg.assistant{
+    margin-bottom: 75px;
+}
+
+.c-msg.assistant span{
+    white-space: pre-wrap;
+}
+.c-msg.assistant::before{
+    content: "\f38a";
+    font-family: "tabler-icons" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 23px;
+    left:60px;
+    top:0px;
+    background-color: #ffc100;
+    color:#555;
+}
+.c-msg.user::before{
+    content: "\eb4d";
+    font-family: "tabler-icons" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 23px;
+    left:60px;
+    top:0px;
+    background-color: #0460a9;
+    color:#fff;
+}
